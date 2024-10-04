@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Carros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="form.php" method="post">
+    <header>
+        <div class="titulo">
+            <h1>Cadastro de Carros</h1>
+        </div>
+    </header>
+    <section>
+        <div class="conteiner">
+            <div class="box 1">
+                <h2>Informações Basicas</h2>
+                <label for="nomeCarro">Modelo do carro</label>
+                <input type="text" name="nomeCarro">
+                <label for="anoCarro">Ano do carro</label>
+                <input type="number" name="anoCarro" min="0">
+                <label for="marca">Marca do carro</label>
+                <input type="text" name="marca">
+                <h3>Cor do Carro</h3>
+                <label for="corCarro">Prata</label>
+                <input type="radio" name="corCarro" value="Prata"  checked>
+                <label for="corCarro">Preto</label>
+                <input type="radio" name="corCarro" value="Preto">
+                <label for="corCarro">Branco</label>
+                <input type="radio" name="corCarro" value="Branco" >
+                <label for="corCarro">Vermelho</label>
+                <input type="radio" name="corCarro" value="Vermelho">
+            </div>
+            <div class="box 2">
+                <h2>Especificações técnicas</h2>
+                <h3>Tipo de Combustivel</h3>
+                <label for="tipCombustivel">Gasolina</label>
+                <input type="radio" name="tipCombustivel" value="Gasolina" checked>
+                <label for="tipCombustivel">Alcool</label>
+                <input type="radio" name="tipCombustivel" value="Alcool" >
+                <label for="tipCombustivel">Flex</label>
+                <input type="radio" name="tipCombustivel" value="Flex" >
+                <label for="km">Quilometragem</label>
+                <input type="number" name="km">
+                <h3>Transmissão</h3>
+                <label for="transm">Manual</label>
+                <input type="radio" name="transm" value="Manual" checked >
+                <label for="transm">Automatico</label>
+                <input type="radio" name="transm" value="Automatico">
+            </div>
+            <div class="box 3">
+                <h2>Opcionais do Carro</h2>
+                <label for="ar">Ar-condicionado</label>
+                <input type="checkbox" name="ar" value="Sim">
+                <label for="direcao">Direção Hidráulica</label>
+                <input type="checkbox" name="direcao" value="Sim">
+                <label for="freio">Freio ABS</label>
+                <input type="checkbox" name="freio" value="Sim">
+                <label for="vidro">Vidro Eletrico</label>
+
+                
+                <input type="checkbox" name="vidro" value="Sim">
+                <label for="teto">Teto Solar</label>
+                <input type="checkbox" name="teto" value="Sim">
+                <label for="camera">Câmera de Ré</label>
+                <input type="checkbox" name="camera" value="Sim">
+            </div>
+        </div>
+        <div class="bot">
+            <input type="submit" id="botao" value="Cadastrar">
+        </div>
+    </section>
+    </form>
+</body>
+</html>

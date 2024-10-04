@@ -1,0 +1,53 @@
+body{
+    background-image: url('carros.jpg');
+}
+.titulo{
+    background-color: rgb(192, 208, 231);
+    width: 330px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 16px;
+}
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3,h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.box{
+    background-color: rgb(192, 208, 231);
+    display: grid;
+    padding: 10px;
+    height: 500px;
+    border: solid;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.801);
+}
+.bot{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#botao{
+    height: 60px;
+    width: 250px;
+    border: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.795);
+    border-radius: 16px;
+    background-color: rgb(192, 208, 231);
+    font-size: larger;
+}
+input{
+    border-radius: 10px;
+}
